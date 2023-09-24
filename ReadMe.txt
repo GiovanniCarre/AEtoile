@@ -7,10 +7,12 @@ Lancement du projet:
 -Si vous avez JAVA, lancer directement Le .jar
 -Si vous avez Windows sans JAVA : 
 Un JRE est inclus dans ce projet en JAVA 8, l'exécutable (.exe) est fait pour pouvoir lancer sur un windows x64 ou plus.
-Sinon il suffit de remplacer le contenu du Dossier JRE par un des 
+Il faut : télécharger le JRE depuis : https://www.sportcooks.fr/JRE.rar
+Et le décompresser dans ce dossier (le dossier JRE doit etre dans le même répertoire que le .exe)
 
--Sinon il suffit de remplacer le contenu du Dossier JRE par un des 
-en java 8 à télécharger sur le site:
+
+-Sinon il suffit de remplacer le contenu du Dossier JRE par un des JDK 
+en java 8 à télécharger sur le site:https://www.sportcooks.fr/JRE.rar
 Une fois le JDK installé, il faudra aller dans le fichier d'installation par défaut: programmFiles/Amazon Corretto/JDK...
 Et de mettre tout le contenu de ce fichier dans le dossier JRE et ensuite de lancer le .exe
 
