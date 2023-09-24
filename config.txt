@@ -1,0 +1,12 @@
+Départ X:
+5
+Départ Y:
+3
+Objectif X:
+3
+Objectif Y:
+5
+Largeur Grille:
+10
+Hauteur Grille:
+10
