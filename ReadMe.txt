@@ -1,27 +1,61 @@
-Ce programme montre l'algorithme A* qui permet de trouver l'un des plus courts chemin. Le programme s'exécute
-sur une grille 2D, de la taille voulue
-Les différentes valeurs peuvent être changées dans le fichier config.txt
+# Programme de recherche de chemin avec l'algorithme A*
 
+Ce programme implémente l'**algorithme A\*** pour trouver l'un des **chemins les plus courts** dans une grille 2D. La taille de la grille ainsi que d'autres paramètres sont configurables via un fichier **`config.txt`**.
 
-Lancement du projet: 
--Si vous avez JAVA, lancer directement Le .jar
--Si vous avez Windows sans JAVA : 
-Un JRE est inclus dans ce projet en JAVA 8, l'exécutable (.exe) est fait pour pouvoir lancer sur un windows x64 ou plus.
-Il faut : télécharger le JRE depuis : https://www.sportcooks.fr/JRE.rar
-Et le décompresser dans ce dossier (le dossier JRE doit etre dans le même répertoire que le .exe)
+---
 
+## 🎯 Fonctionnalités principales
+- **Algorithme A\*** : Recherche du chemin optimal dans une grille.
+- **Grille 2D personnalisable** : Taille et options définies dans `config.txt`.
+- **Contrôles interactifs** : Ajout et suppression de murs, dessin du chemin optimal.
 
--Sinon il suffit de remplacer le contenu du Dossier JRE par un des JDK 
-en java 8 à télécharger sur le site:https://www.sportcooks.fr/JRE.rar
-Une fois le JDK installé, il faudra aller dans le fichier d'installation par défaut: programmFiles/Amazon Corretto/JDK...
-Et de mettre tout le contenu de ce fichier dans le dossier JRE et ensuite de lancer le .exe
+---
 
-Contrôles : 
-Mettre un mur : clique gauche
-Enlever un mur : clique droit
+## 🚀 Lancement du projet
 
-Z : Dessiner le tracé du chemin le plus court
-E : Enlever le tracé
+### 1. Installation de Java 8
+Pour exécuter ce programme, **Java 8** est requis. Suivez ces étapes pour l'installer :
 
+1. Téléchargez **Java 8** (JRE ou JDK) depuis le site officiel :  
+   [Télécharger Java](https://www.java.com/fr/download/)
 
-Vois plus d'informations sur la présentation.pdf
+2. Installez Java en suivant les instructions de l'installateur.
+
+3. Vérifiez que Java est correctement installé en ouvrant un terminal ou l'invite de commande et en exécutant :  
+
+   ```bash
+   java -version
+
+Si l'installation est réussie, vous devriez voir quelque chose comme :
+
+java version "1.8.0_xx"
+Java(TM) SE Runtime Environment (build 1.8.0_xx)
+Java HotSpot(TM) 64-Bit Server VM
+
+2. Exécution du programme
+
+    Si Java est déjà installé : Double-cliquez directement sur le fichier .jar pour lancer le programme.
+
+    Depuis la ligne de commande :
+    Ouvrez un terminal ou une invite de commande et utilisez cette commande :
+
+    java -jar chemin/vers/le/fichier.jar
+
+🕹️ Contrôles du programme
+
+    Ajouter un mur : Clic gauche sur la grille.
+    Supprimer un mur : Clic droit sur la grille.
+    Dessiner le chemin le plus court : Appuyez sur Z.
+    Enlever le tracé : Appuyez sur E.
+
+📄 Informations supplémentaires
+
+Pour plus de détails sur le fonctionnement du programme et l'algorithme, consultez le fichier présentation.pdf inclus dans le projet.
+✅ Résumé des prérequis
+
+    Java 8 (JRE ou JDK) doit être installé.
+    Configuration possible via config.txt.
+    Grille interactive pour tester l'algorithme A*.
+
+🚀 Profitez de la recherche de chemin optimal avec l'algorithme A*! 😊
+
